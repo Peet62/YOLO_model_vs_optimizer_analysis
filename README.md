@@ -45,7 +45,7 @@ Most PCB-defect-detection papers pick one YOLO version and one optimizer, train 
 | mAP@50-95 | F=31.12, p<.0001 | F=39.43, p<.0001 | F=16.42, p<.0001 |
 | F1 Score | F=27.00, p<.0001 | F=33.48, p<.0001 | F=10.33, p<.0001 |
 
-Full breakdown (Shapiro-Wilk, Levene, Tukey HSD, Kruskal-Wallis, Welch ANOVA, and the model×optimizer cell-level post-hoc table) is in [`statistical_report.pdf`](./statistical_report.pdf).
+Full breakdown (Shapiro-Wilk, Levene, Tukey HSD, Kruskal-Wallis, Welch ANOVA, and the model×optimizer cell-level post-hoc table) is in [`statistical_report.pdf`](./Comlete_statistical__report.pdf).
 
 ## Experimental design
 
@@ -65,8 +65,8 @@ The methodology mirrors the two-way ANOVA design used in prior work from this gr
 
 | File | Description |
 |---|---|
-| [`Complete_statistical__report.pdf`](./statistical_report.pdf) | Full 10-section statistical analysis report: normality screening, Levene's test, two-way ANOVA, Tukey HSD, Kruskal-Wallis, Welch ANOVA, and all interaction-plot/boxplot figures for all five metrics. |
-| [`descriptive_statistics.xlsx`](./descriptive_stats.xlsx) | Descriptive statistics (mean, median, SD, min/max, quartiles) per model×optimizer cell for all five metrics. |
+| [`Complete_statistical__report.pdf`](./Complete_statistical__report.pdf) | Full 10-section statistical analysis report: normality screening, Levene's test, two-way ANOVA, Tukey HSD, Kruskal-Wallis, Welch ANOVA, and all interaction-plot/boxplot figures for all five metrics. |
+| [`descriptive_statistics.xlsx`](./descriptive_statistics.csv) | Descriptive statistics (mean, median, SD, min/max, quartiles) per model×optimizer cell for all five metrics. |
 | `Figures/` | Figures used in this README. |
 
 > **Note:** file names above match what's currently in this repo — rename the table row if your actual filenames differ.
