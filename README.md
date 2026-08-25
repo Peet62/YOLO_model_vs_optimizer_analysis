@@ -7,7 +7,7 @@
 A fully reproducible statistical evaluation of **three YOLO architectures** (YOLOv8, YOLO11, YOLO26) crossed with **three optimizers** (Adam, AdamW, SGD) for automated detection of soldering splashes on power-electronics printed circuit boards (PCBs). Every one of the 9 model×optimizer combinations was retrained from **10 independent random seeds** (90 runs total), and every conclusion is backed by two-way ANOVA with normality and homogeneity-of-variance screening — not a single-run point estimate.
 
 <p align="center">
-  <img src="figures/solder_splash_examples.jpg" width="800" alt="Representative solder-splash defects on the inspected power-module PCBs">
+  <img src="Figures/solder_splash_examples.jpg" width="800" alt="Representative solder-splash defects on the inspected power-module PCBs">
 </p>
 <p align="center"><sub>Representative solder-splash defects on the inspected PCBs (reproduced, CC BY 4.0, from Klčo et al., <i>Sci. Rep.</i> 13:20657, 2023).</sub></p>
 
@@ -26,12 +26,12 @@ Most PCB-defect-detection papers pick one YOLO version and one optimizer, train 
 ## Results
 
 <p align="center">
-  <img src="figures/recall_interaction.png" width="800" alt="Recall: model x optimizer interaction plot and per-cell boxplot">
+  <img src="Figures/recall_interaction.png" width="800" alt="Recall: model x optimizer interaction plot and per-cell boxplot">
 </p>
 <p align="center"><sub>Recall — the metric most sensitive to architecture and optimizer choice. The YOLOv26/SGD cell diverges sharply from every other combination.</sub></p>
 
 <p align="center">
-  <img src="figures/precision_interaction.png" width="800" alt="Precision: model x optimizer interaction plot and per-cell boxplot">
+  <img src="Figures/precision_interaction.png" width="800" alt="Precision: model x optimizer interaction plot and per-cell boxplot">
 </p>
 <p align="center"><sub>Precision, shown for contrast — neither the model nor the optimizer main effect is significant here, despite the significant interaction term.</sub></p>
 
