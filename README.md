@@ -45,7 +45,7 @@ Most PCB-defect-detection papers pick one YOLO version and one optimizer, train 
 | mAP@50-95 | F=31.12, p<.0001 | F=39.43, p<.0001 | F=16.42, p<.0001 |
 | F1 Score | F=27.00, p<.0001 | F=33.48, p<.0001 | F=10.33, p<.0001 |
 
-Full breakdown (Shapiro-Wilk, Levene, Tukey HSD, Kruskal-Wallis, Welch ANOVA, and the model×optimizer cell-level post-hoc table) is in [`statistical_report.pdf`](./Comlete_statistical__report.pdf).
+Full breakdown (Shapiro-Wilk, Levene, Tukey HSD, Kruskal-Wallis, Welch ANOVA, and the model×optimizer cell-level post-hoc table) is in [`statistical_report.pdf`](./Complete_statistical__report.pdf).
 
 ## Experimental design
 
